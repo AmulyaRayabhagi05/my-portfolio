@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build --mode client",
+    "build": "vite build",
+    "build:pages": "vinxi build --target browser",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
